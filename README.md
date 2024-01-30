@@ -2,8 +2,8 @@
 
 ## 1 Install latest node version lts
 ## 2 Write this commands
-2.1 npm i
-2.2 npm run dev to run the project
+#### 2.1 npm i
+#### 2.2 npm run dev to run the project
 
 ## TO-DO
 
