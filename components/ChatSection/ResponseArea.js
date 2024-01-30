@@ -37,7 +37,7 @@ Based on the information provided, we will focus on the DM (Demographics) domain
       {queries.map((data, index) => {
         return (
           <>
-            <p key={index}>{data}</p>
+            <p className={styles["human_query"]} key={index}>{data}</p>
             {responses.map((response, index)=>{
               return (<ResponseBox key={ index } response={ response }></ResponseBox>)
             })}

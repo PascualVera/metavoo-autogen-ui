@@ -5,7 +5,8 @@ import styles from "styles/components/ChatSection/QueryTextBox.module.scss";
 
 const QueryTextBox = ({ content, setContent, onSubmit }) => {
   const handleChange = (event) => {
-    setContent(event.target.value);
+    setContent(`${event.target.value}`);
+    console.log(content)
   };
   // const handleKeyDown = (e) => {
   //   if (e.key === "Enter" && content.trim() !== "") {
